@@ -89,9 +89,9 @@ router.get('/', async (req, res) => {
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
                             text: `⚠️Do not share this file with anybody⚠️\n 
-┌┤✑  Thanks for using Devil BoT
+┌┤✑  Thanks for using 9man-x-yamdhud bot💫
 │└────────────┈ ⳹        
-│©2025 Mr Lordx Devil 
+│©2025 ⚜️♥️‎★━━━━━━━━━━━━━━━━━‎━━━━━━━━━━━━━━━━━‎━━‎‎★𝟑>चुत ओर साप दोनों dhakte ___/😶ही मर देना चाहिए __/👍━━━━━━━━━━━━━━━━‎━━━━━━━━━━━━━━━━━‎━━‎‎🔫𝟗𝐌𝐀𝐌-𝐗-𝐘𝐀𝐌𝐃𝐇𝐔𝐃🫨💗💫 
 └─────────────────┈ ⳹\n\n`
                         });
                         console.log("⚠️ Warning message sent successfully");
