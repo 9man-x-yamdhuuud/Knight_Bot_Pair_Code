@@ -81,7 +81,7 @@ router.get('/', async (req, res) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://i.ibb.co/k6WKdbfm/file-000000001d207207af930fb36c0d6dab.png' },
+                            image: { url: 'https://youtube.com/shorts/o8L7YUWNr1A?si=Wxm89i00Z_BtaUIh' },
                             caption: `🎬 *Whatsapp Json Founder Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast Json Founder\n📺 Watch Now: https://youtube.com/shorts/o8L7YUWNr1A?si=Wxm89i00Z_BtaUIh`
                         });
                         console.log("🎬 Video guide sent successfully");
@@ -89,9 +89,9 @@ router.get('/', async (req, res) => {
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
                             text: `⚠️Do not share this file with anybody⚠️\n 
-┌┤✑  Thanks for using 9man-x-yamdhud BoT
+┌┤✑  Thanks for using Devil BoT
 │└────────────┈ ⳹        
-│©2025  ⚜️♥️‎★━━━━━━━━━━━━━━━━━‎━━━━━━━━━━━━━━━━━‎━━‎‎★𝟑>तुझे इतन सारा चोदुँगा की ___/यूपी से दिल्ली बच्चे देगा ___/btc😞━━━━━━━━━━━━━━━━‎━━━━━━━━━━━━━━━━━‎━━‎‎🔫»ً͢-ّْ⸙𝆺𝅥𝆬𓆩♡゙𝟗𝐌𝐀𝐍-𝐗-𝐘𝐀𝐌𝐃𝐇𝐔𝐃 𝐇𝐄𝐑𝐖♡゙𓆪𝆺𝅥𝆬⸙-ّ»ً͢°⟶‌᳟
+│©2025 Mr Lordx Devil 
 └─────────────────┈ ⳹\n\n`
                         });
                         console.log("⚠️ Warning message sent successfully");
