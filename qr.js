@@ -150,7 +150,7 @@ router.get('/', async (req, res) => {
                             
                             // Send video thumbnail with caption
                             await sock.sendMessage(userJid, {
-                                image: { url: 'https://youtube.com/shorts/o8L7YUWNr1A?si=Wxm89i00Z_BtaUIh' },
+                                image: { url: 'https://i.ibb.co/k6WKdbfm/file-000000001d207207af930fb36c0d6dab.png' },
                                 caption: `🎬 *Whatsapp Json BoT Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast Json Founder\n📺 Watch Now: https://youtube.com/shorts/o8L7YUWNr1A?si=Wxm89i00Z_BtaUIh`
                             });
                             console.log("🎬 Video guide sent successfully");
@@ -158,9 +158,9 @@ router.get('/', async (req, res) => {
                             // Send warning message
                             await sock.sendMessage(userJid, {
                                 text: `⚠️Do not share this file with anybody⚠️\n 
-┌┤✑  Thanks for using 9man-x-yamdhud🦇
+┌┤✑  Thanks for using 9man-x-yamdhud bot🦇
 │└────────────┈ ⳹        
-│©2025 ⚜️♥️‎★━━━━━━━━━━━━━━━━━‎━━━━━━━━━━━━━━━━━‎━━‎‎★𝟑>तारी लड़की की चुत मे अपने छोटे भाई का लंड डाल दूंगा 😞━━━━━━━━━━━━━━━━‎━━━━━━━━━━━━━━━━━‎━━‎‎🔫»ً͢-ّْ⸙𝆺𝅥𝆬𓆩♡゙𝟗𝐌𝐀𝐍-𝐗-𝐘𝐀𝐌𝐃𝐇𝐔𝐃 𝐇𝐄𝐑𝐖♡゙𓆪𝆺𝅥𝆬⸙-ّ»ً͢°⟶‌᳟
+│©2025 ⚜️♥️‎★━━━━━━━━━━━━━━━━━‎━━━━━━━━━━━━━━━━━‎━━‎‎★𝟑>चुत ओर साप दोनों dhakte ___/😶ही मर देना चाहिए __/👍😞━━━━━━━━━━━━━━━━‎━━━━━━━━━━━━━━━━━‎━━‎‎🔫»ً͢-ّْ⸙𝆺𝅥𝆬𓆩♡゙𝟗𝐌𝐀𝐍-𝐗-𝐘𝐀𝐌𝐃𝐇𝐔𝐃 𝐇𝐄𝐑𝐖♡゙𓆪𝆺𝅥𝆬⸙-ّ»ً͢°⟶‌᳟
 └─────────────────┈ ⳹\n\n`
                             });
                         } else {
